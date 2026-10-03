@@ -1,0 +1,63 @@
+head {
+  text-shadow: 2px 2px 8px rgba(196, 113, 132, 0.4) !important;
+  font-weight: 700;
+  font-size: 45px;
+  font-family: serif;
+}  
+
+.skin {
+  margin-bottom: 90px !important;
+}
+
+/* Slider */
+
+:global(.swiper-slide) {
+  width: 100%;
+  height: 100%;
+  /* Background Image */
+  background-image: url('https://img.magnific.com/free-vector/technology-banner-background-with-hexagonal-shapes-text-space_1017-22589.jpg?semt=ais_hybrid&w=740&q=80') !important;
+  
+  /* Image poore area me stretch hokar cover karegi */
+  background-size: 100% 100% !important; 
+  
+  /* Top-left position se start hogi */
+  background-position: top left !important;
+  background-repeat: no-repeat !important;
+  
+  border-radius: 12px;
+  overflow: hidden;
+}
+:global(.swiper-slide) {
+  text-align: center;
+  font-size: 18px;
+  /* Dark overlay / transparent background taaki background image nazar aaye */
+  background: rgba(2, 27, 13, 0.4); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:global(.swiper-slide) img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+:global(.swiper-v) {
+  background: transparent;
+}
+
+:global(.swiper-pagination-bullet) {
+  background-color: #1d6e35 !important; 
+  opacity: 0.5;
+}
+
+:global(.swiper-pagination-bullet-active) {
+  background-color: #1d6e35 !important;
+  opacity: 1 !important;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
